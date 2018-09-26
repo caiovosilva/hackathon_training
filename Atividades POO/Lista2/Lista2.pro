@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-09-26T10:28:39
+# Project created by QtCreator 2018-09-26T10:48:53
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Lista1_caio
+TARGET = Lista2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use

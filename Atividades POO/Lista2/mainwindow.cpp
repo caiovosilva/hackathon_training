@@ -9,12 +9,13 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ContaCorrente contaCorrente =  ContaCorrente("666");
+
     ContaPoupanca contaPoupanca = ContaPoupanca("999");
     contaPoupanca.setSaldo(10);
 
     Cliente cliente = Cliente("Caio");
     cliente.setConta(&contaPoupanca);
+
     ui->label->setText(cliente.toString());
 }
 

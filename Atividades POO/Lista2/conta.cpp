@@ -3,7 +3,6 @@
 Conta::Conta(QString num)
     :numero(num)
 {
-
 }
 
 void Conta::setSaldo(double num)

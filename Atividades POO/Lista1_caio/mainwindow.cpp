@@ -8,14 +8,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
-//    MusicStore *musicStore = new MusicStore;
-//    musicStore->setOwner("Roberto, Propietário");
-//    ui->label->setText(musicStore->displayHoursOfOperation());
-
-
-
-
 }
 
 MainWindow::~MainWindow()

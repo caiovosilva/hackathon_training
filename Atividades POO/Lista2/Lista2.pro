@@ -26,11 +26,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    musicstore.cpp
+    conta.cpp \
+    contacorrente.cpp \
+    contapoupanca.cpp \
+    cliente.cpp
 
 HEADERS += \
         mainwindow.h \
-    musicstore.h
+    conta.h \
+    contacorrente.h \
+    contapoupanca.h \
+    cliente.h
 
 FORMS += \
         mainwindow.ui

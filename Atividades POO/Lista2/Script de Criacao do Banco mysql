@@ -1,0 +1,25 @@
+create database Banco;
+
+use Banco;
+
+CREATE TABLE Conta
+(
+	Id MEDIUMINT NOT NULL AUTO_INCREMENT,
+	Numero VARCHAR(50),
+    Saldo DOUBLE,
+    TipoConta int,
+	PRIMARY KEY (id)
+);
+
+#drop table Conta;
+INSERT INTO ContaPoupanca (saldo) values (100);
+INSERT INTO ContaCorrente (saldo) values (100);
+
+CREATE TABLE Cliente
+(
+	Id MEDIUMINT NOT NULL AUTO_INCREMENT,
+    Saldo DOUBLE,
+    ContaId MEDIUMINT,
+	PRIMARY KEY (Id),
+	FOREIGN KEY (ContaId) REFERENCES Conta(Id)
+)
